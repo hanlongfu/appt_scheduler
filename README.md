@@ -1,6 +1,6 @@
 # Appointment Scheduler
 
-A GUI-based scheduling desktop application with a front-end written in `Java` and `JavaFX` and a `MySQL` back-end.  It includes the following functionalities:
+A GUI-based scheduling desktop application with a front-end written in `Java` and `JavaFX` and a back-end supported by `MySQL`.  It includes the following functionalities:
 
 - Create, modify, and delete appointments
 - Create, modify, and delete customers
