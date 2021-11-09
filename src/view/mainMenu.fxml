@@ -12,10 +12,10 @@
             <Font size="24.0" />
          </font>
       </Label>
-      <Button layoutX="100.0" layoutY="82.0" mnemonicParsing="false" prefWidth="200.0" text="Customers" />
-      <Button layoutX="100.0" layoutY="135.0" mnemonicParsing="false" prefWidth="200.0" text="Appointments" />
-      <Button layoutX="100.0" layoutY="190.0" mnemonicParsing="false" prefWidth="200.0" text="Reports" />
-      <Button layoutX="100.0" layoutY="245.0" mnemonicParsing="false" prefWidth="200.0" text="Logs" />
-      <Button layoutX="100.0" layoutY="298.0" mnemonicParsing="false" prefWidth="200.0" text="Exit" />
+      <Button layoutX="100.0" layoutY="82.0" mnemonicParsing="false" onAction="#onActionCustomersBtn" prefWidth="200.0" text="Customers" />
+      <Button layoutX="100.0" layoutY="135.0" mnemonicParsing="false" onAction="#onActionAppointmentsBtn" prefWidth="200.0" text="Appointments" />
+      <Button layoutX="100.0" layoutY="190.0" mnemonicParsing="false" onAction="#onActionReportsBtn" prefWidth="200.0" text="Reports" />
+      <Button layoutX="100.0" layoutY="245.0" mnemonicParsing="false" onAction="#onActionLogsBtn" prefWidth="200.0" text="Logs" />
+      <Button layoutX="100.0" layoutY="298.0" mnemonicParsing="false" onAction="#onActionExitBtn" prefWidth="200.0" text="Exit" />
    </children>
 </AnchorPane>

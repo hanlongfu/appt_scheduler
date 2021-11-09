@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="468.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.ReportMainController">
+<AnchorPane id="AnchorPane" prefHeight="468.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReportsController">
    <children>
       <Label layoutX="219.0" layoutY="14.0" text="Reporting System">
          <font>
@@ -62,6 +62,6 @@
             </Tab>
         </tabs>
       </TabPane>
-      <Button layoutX="483.0" layoutY="431.0" mnemonicParsing="false" onAction="#handleBackButton" text="Return to Main Menu" />
+      <Button layoutX="483.0" layoutY="431.0" mnemonicParsing="false" text="Return to Main Menu" />
    </children>
 </AnchorPane>
